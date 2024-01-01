@@ -7,36 +7,16 @@ const Faq = ({
     queries = [
         {
             id: 1,
-            question: 'How long is this site live?',
-            answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+            question: 'Вопрос 1',
+            answer: 'Большущий ответ',
         },
         {
             id: 2,
-            question: 'How do I create an account?',
-            answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        },
-        {
-            id: 3,
-            question: 'What protections does Strategic Systems use to protect our data?',
-            answer: "For now it is limited to 100MB per instance. We'll offer expansion options soon.",
-        },
-        {
-            id: 4,
-            question: 'What type of support is included with this Service?',
-            answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        },
-        {
-            id: 5,
-            question: 'Do you have premium plans for products?',
-            answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        },
-        {
-            id: 6,
-            question: 'Who else is using plurk SaaS tool?',
-            answer: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+            question: 'Вопрос 2',
+            answer: 'Большущий ответ',
         },
     ],
-}) => {                             
+}) => {
     const [active, setActive] = useState<any>(0);
     return (
         <section className="py-14 lg:py-[100px]">
@@ -44,9 +24,9 @@ const Faq = ({
                 <div className="heading text-center">
                     <h6 className={`${showTitle ? '' : 'hidden'} ${type.toLowerCase() === 'modern-saas' ? '!text-secondary' : ''}`}>FAQs</h6>
                     <h4>
-                        Frequently Asked <span className={type.toLowerCase() === 'restaurent' ? '!text-secondary' : ''}>Questions</span>
+                        Часто Задаваемые <span className={type.toLowerCase() === 'restaurent' ? '!text-secondary' : ''}>Вопросы</span>
                     </h4>
-                    <p className="mt-5 text-lg font-bold">Have questions? We’re help you.</p>
+                    <p className="mt-5 text-lg font-bold">Есть вопросы? Мы вам поможем.</p>
                 </div>
                 <div className="mx-auto lg:w-[730px]">
                     {queries.map((faq: any, i: number) => {
@@ -59,9 +39,8 @@ const Faq = ({
                                 >
                                     <div>{faq.question}</div>
                                     <div
-                                        className={`grid h-6 w-6 flex-shrink-0 place-content-center rounded-full border-2 border-gray text-gray transition ${
-                                            active === i ? '!border-black !text-black dark:!border-white dark:!text-white' : ''
-                                        }`}
+                                        className={`grid h-6 w-6 flex-shrink-0 place-content-center rounded-full border-2 border-gray text-gray transition ${active === i ? '!border-black !text-black dark:!border-white dark:!text-white' : ''
+                                            }`}
                                     >
                                         <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path
