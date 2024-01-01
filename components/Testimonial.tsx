@@ -12,11 +12,11 @@ const Testimonial = ({
     feedbacks = [
         {
             id: 1,
-            name: 'Allan Branch',
-            role: 'CEO of Lifted',
+            name: 'Ирина Петрова',
+            role: 'CEO Что-то там Муром',
             thumbnail: '/assets/images/testimonial.png',
             message:
-                "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+                "Я недавно обратился к компании “3D Муром”, чтобы реализовать свой проект по 3D печати. Хочу отметить профессионализм и опыт сотрудников, которые помогли мне на каждом этапе работы. Результатом я остался очень доволен и рекомендую “3D Муром” всем, кто ищет надежного партнера в области 3D технологий.",
         },
     ],
     className = '',
@@ -127,7 +127,7 @@ const Testimonial = ({
                     <div className="bottom-0 z-[1] mt-5 flex items-center justify-end gap-4 ltr:right-28 rtl:left-28 sm:absolute sm:mt-0 sm:justify-end">
                         <Link href="#" className="text-sm font-extrabold text-white transition hover:text-secondary dark:hover:text-secondary">
                             {' '}
-                            View All{' '}
+                            Посмотрть все{' '}
                         </Link>
 
                         <button
@@ -315,8 +315,8 @@ const Testimonial = ({
                     )}
                     <div className="container">
                         <div className={`heading text-center ltr:lg:text-left rtl:lg:text-right ${showTitle ? '' : 'hidden'}`}>
-                            <h6>Testimonial</h6>
-                            <h4 className="!text-white">Feedback from our clients</h4>
+                            <h6>Отзывы</h6>
+                            <h4 className="!text-white">Отзывы от наших клиентов</h4>
                         </div>
                         <div className={`mx-auto ${type.toLowerCase() === 'common' ? 'lg:w-11/12' : ''} `}>
                             <div className="relative sm:py-12 md:py-0">
@@ -475,12 +475,11 @@ const Testimonial = ({
                                         })}
                                 </Swiper>
                                 <div
-                                    className={`bottom-0 z-[1] mt-5 flex items-center justify-center gap-4 ${
-                                        type.toLowerCase() === 'common' && 'ltr:right-1/3 rtl:left-1/3 sm:absolute sm:mt-0 sm:justify-end'
-                                    } ${type.toLowerCase() === 'modern-saas' && 'ltr:left-0 rtl:right-0 md:absolute md:mt-0 md:justify-end'}`}
+                                    className={`bottom-0 z-[1] mt-5 flex items-center justify-center gap-4 ${type.toLowerCase() === 'common' && 'ltr:right-1/3 rtl:left-1/3 sm:absolute sm:mt-0 sm:justify-end'
+                                        } ${type.toLowerCase() === 'modern-saas' && 'ltr:left-0 rtl:right-0 md:absolute md:mt-0 md:justify-end'}`}
                                 >
                                     <Link href="#" className="text-sm font-extrabold text-white transition hover:text-secondary dark:hover:text-secondary">
-                                        View All
+                                        Посмотрть все
                                     </Link>
                                     <button
                                         type="button"
