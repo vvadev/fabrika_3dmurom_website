@@ -31,7 +31,7 @@ const Header = (props: any) => {
             <div className="container">
                 <div className="flex items-center justify-between py-5 lg:py-0">
                     <Link href="/">
-                        <img src="/assets/images/logo.png" alt="plurk" className="h-10 w-full" />
+                        <img src="/assets/images/logo-big-white.png" alt="plurk" className="h-12 w-full" />
                     </Link>
                     <div className="flex items-center">
                         <div onClick={() => toggleMenu()} className={`overlay fixed inset-0 z-[51] bg-black/60 lg:hidden ${showMenu ? '' : 'hidden'}`}></div>
@@ -53,35 +53,35 @@ const Header = (props: any) => {
                             <ul onClick={() => toggleMenu()}>
                                 <li>
                                     <Link href="/" className={router.pathname === '/' ? 'active' : ''}>
-                                        Home
+                                        Главная
                                     </Link>
                                 </li>
-                                <li className="group relative" onClick={(e) => e.stopPropagation()}>
+                                {/* <li className="group relative" onClick={(e) => e.stopPropagation()}>
                                     <Link
                                         href="#"
                                         className={
                                             router.pathname === '/crypto' ||
-                                            router.pathname === '/modern-saas' ||
-                                            router.pathname === '/real-estate' ||
-                                            router.pathname === '/healthcare' ||
-                                            router.pathname === '/marketing' ||
-                                            router.pathname === '/application' ||
-                                            router.pathname === '/hotel-resort' ||
-                                            router.pathname === '/nft' ||
-                                            router.pathname === '/online-courses' ||
-                                            router.pathname === '/restaurant' ||
-                                            router.pathname === '/consulting' ||
-                                            router.pathname === '/creative-agency' ||
-                                            router.pathname === '/insurance' ||
-                                            router.pathname === '/photography' ||
-                                            router.pathname === '/construction' ||
-                                            router.pathname === '/blog-landing' ||
-                                            router.pathname === '/event-concert' ||
-                                            router.pathname === '/gym' ||
-                                            router.pathname === '/job-placement' ||
-                                            router.pathname === '/online-payments' ||
-                                            router.pathname === '/personal-portfolio' ||
-                                            router.pathname === '/portfolio-landing'
+                                                router.pathname === '/modern-saas' ||
+                                                router.pathname === '/real-estate' ||
+                                                router.pathname === '/healthcare' ||
+                                                router.pathname === '/marketing' ||
+                                                router.pathname === '/application' ||
+                                                router.pathname === '/hotel-resort' ||
+                                                router.pathname === '/nft' ||
+                                                router.pathname === '/online-courses' ||
+                                                router.pathname === '/restaurant' ||
+                                                router.pathname === '/consulting' ||
+                                                router.pathname === '/creative-agency' ||
+                                                router.pathname === '/insurance' ||
+                                                router.pathname === '/photography' ||
+                                                router.pathname === '/construction' ||
+                                                router.pathname === '/blog-landing' ||
+                                                router.pathname === '/event-concert' ||
+                                                router.pathname === '/gym' ||
+                                                router.pathname === '/job-placement' ||
+                                                router.pathname === '/online-payments' ||
+                                                router.pathname === '/personal-portfolio' ||
+                                                router.pathname === '/portfolio-landing'
                                                 ? 'active'
                                                 : ''
                                         }
@@ -188,13 +188,13 @@ const Header = (props: any) => {
                                             </span>
                                         </Link>
                                     </div>
-                                </li>
+                                </li> */}
                                 <li>
                                     <Link
                                         href="/portfolio"
                                         className={router.pathname === '/portfolio' || router.pathname === '/portfolio-detail' ? 'active' : ''}
                                     >
-                                        Portfolio
+                                        Портфолио
                                     </Link>
                                 </li>
                                 <li>
@@ -202,22 +202,27 @@ const Header = (props: any) => {
                                         href="/services"
                                         className={router.pathname === '/services' || router.pathname === '/services-detail' ? 'active' : ''}
                                     >
-                                        Service
+                                        Услуги
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/team" className={router.pathname === '/team' ? 'active' : ''}>
-                                        Team
+                                        Команда
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/about-us" className={router.pathname === '/about-us' ? 'active' : ''}>
-                                        About Us
+                                        О Нас
                                     </Link>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <Link href="/career" className={router.pathname === '/career' ? 'active' : ''}>
-                                        Career
+                                        Карьера
+                                    </Link>
+                                </li> */}
+                                <li>
+                                    <Link href="/contact-us" className={router.pathname === '/contact-us' ? 'active' : ''}>
+                                        Контакты
                                     </Link>
                                 </li>
                                 {/* <li className="relative hidden items-center before:absolute before:top-1/2 before:h-[30px] before:w-[2px] before:-translate-y-1/2 before:bg-gray/30 ltr:pl-9 ltr:before:-left-[2px] rtl:pr-9 rtl:before:-right-[2px] lg:inline-flex">

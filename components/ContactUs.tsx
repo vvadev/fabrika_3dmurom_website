@@ -293,7 +293,7 @@ const Counter = (props: any) => {
                             </clipPath>
                         </defs>
                     </svg>
-                    <span className="capitalize">Contact us now</span>
+                    <span className="capitalize">Свяжитесь с нами</span>
                 </Link>
             </div>
         </section>

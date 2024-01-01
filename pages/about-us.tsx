@@ -12,7 +12,7 @@ const Aboutus = () => {
     return (
         <div>
             <Head>
-                <title>О нас | Фабрика 3D Муром – 3D-печать и моделирование</title>
+                <title>О нас | Фабрика 3D Муром – 3D печать и моделирование</title>
             </Head>
             <div className="bg-[url(/assets/images/inner-page-hero-bg.png)] bg-cover bg-bottom bg-no-repeat pt-[82px] lg:pt-[106px]">
                 <div className="relative">

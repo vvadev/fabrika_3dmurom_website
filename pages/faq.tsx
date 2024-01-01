@@ -11,7 +11,7 @@ const FAQs = () => {
     return (
         <div>
             <Head>
-                <title>FAQs | Plurk – Tailwind CSS Multipurpose Landing Templates</title>
+                <title>FAQs | Фабрика 3D Муром – 3D-печать и моделирование</title>
             </Head>
             <div className="bg-[url(/assets/images/inner-page-hero-bg.png)] bg-cover bg-bottom bg-no-repeat pt-[82px] lg:pt-[106px]">
                 <div className="relative">
@@ -19,7 +19,7 @@ const FAQs = () => {
                         <div className="items-center justify-between py-10 md:flex md:h-[400px] md:py-0">
                             <div className="heading relative mb-0 text-center ltr:md:text-left rtl:md:text-right">
                                 <h6>FAQs</h6>
-                                <h4 className="!text-white">Frequently Asked Questions</h4>
+                                <h4 className="!text-white">Часто Задаваемые Вопросы</h4>
                             </div>
                             <div className="relative mt-6 md:mt-0" data-aos={isRtl ? 'fade-right' : 'fade-left'} data-aos-duration="1000">
                                 <svg
