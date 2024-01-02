@@ -397,7 +397,7 @@ const Contactus = () => {
                                 href="tel:(480) 555-0103"
                                 className="font-bold text-black transition hover:text-secondary dark:text-white dark:hover:text-secondary lg:text-lg"
                             >
-                                +7 (123) 000-0000
+                                +7 (930) 832-3000
                             </a>
                         </div>
                         <div className="rounded-[32px] bg-white px-4 py-6 dark:bg-gray-dark md:p-7" data-aos="fade-up" data-aos-duration="1000">
@@ -445,7 +445,7 @@ const Contactus = () => {
                                 </div>
                                 <span className="text-[22px] font-bold">Адрес</span>
                             </div>
-                            <h5 className="font-bold text-black dark:text-white lg:text-lg">Улица, дом</h5>
+                            <h5 className="font-bold text-black dark:text-white lg:text-lg">ул. Ленина, д. 34</h5>
                         </div>
                     </div>
                     <img src="/assets/images/canada-branch.png" alt="canada-branch" className="w-full" />

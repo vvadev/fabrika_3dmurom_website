@@ -19,10 +19,11 @@ const ProjectSlider = (props: any) => {
                     </div>
                     <div className="flex items-center justify-end gap-4">
                         <Link
-                            href="/portfolio-detail"
+                            // href="/portfolio-detail"
+                            href="#"
                             className="text-sm font-extrabold text-black transition hover:text-secondary dark:text-white dark:hover:text-secondary"
                         >
-                            View All
+                            Посмотреть все
                         </Link>
                         <div>
                             <button
@@ -112,15 +113,35 @@ const ProjectSlider = (props: any) => {
                     >
                         <SwiperSlide>
                             <div className="relative rounded-3xl border border-transparent bg-white transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark">
-                                <Link href="/portfolio-detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
+                                <Link href="#" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
                                 <img src="/assets/images/project-2.png" alt="Project" className="h-52 w-full rounded-t-3xl object-cover" />
                                 <div className="p-5 text-sm font-bold">
-                                    <h6 className="mb-1 text-black line-clamp-1 dark:text-white">Crypto Game - UX Interface</h6>
-                                    <p>Website, App</p>
+                                    <h6 className="mb-1 text-black line-clamp-1 dark:text-white">Название Проекта 1</h6>
+                                    <p>Тип проекта</p>
                                 </div>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
+                            <div className="relative rounded-3xl border border-transparent bg-white transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark">
+                                <Link href="#" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
+                                <img src="/assets/images/project-1.png" alt="Project" className="h-52 w-full rounded-t-3xl object-cover" />
+                                <div className="p-5 text-sm font-bold">
+                                    <h6 className="mb-1 text-black line-clamp-1 dark:text-white">Название Проекта 2</h6>
+                                    <p>Тип проекта</p>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <div className="relative rounded-3xl border border-transparent bg-white transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark">
+                                <Link href="#" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
+                                <img src="/assets/images/project-3.png" alt="Project" className="h-52 w-full rounded-t-3xl object-cover" />
+                                <div className="p-5 text-sm font-bold">
+                                    <h6 className="mb-1 text-black line-clamp-1 dark:text-white">Название Проекта 3</h6>
+                                    <p>Тип проекта</p>
+                                </div>
+                            </div>
+                        </SwiperSlide>
+                        {/* <SwiperSlide>
                             <div className="relative rounded-3xl border border-transparent bg-white transition duration-500 hover:border-secondary hover:bg-secondary/20 dark:bg-gray-dark">
                                 <Link href="/portfolio-detail" className="absolute top-0 h-full w-full ltr:left-0 rtl:right-0"></Link>
                                 <img src="/assets/images/project-3.png" alt="Project" className="h-52 w-full rounded-t-3xl object-cover" />
@@ -159,7 +180,7 @@ const ProjectSlider = (props: any) => {
                                     <p>Branding, Website, App</p>
                                 </div>
                             </div>
-                        </SwiperSlide>
+                        </SwiperSlide> */}
                     </Swiper>
                 </div>
             </div>

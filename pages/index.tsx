@@ -371,7 +371,7 @@ const Index = (props: any) => {
                                 С помощью специального оборудования и материалов можно получить точные копии исходных моделей. Мы предлагаем услуги 3D печати для различных проектов и задач. Наши специалисты помогут выбрать оптимальные параметры и материалы для достижения наилучшего результата.
                             </p>
                             <Link
-                                href="/services-detail"
+                                href="#"
                                 className="mt-6 flex h-11 w-11 items-center justify-center rounded-full bg-[#F3F4F6] transition group-hover:bg-black group-hover:text-white ltr:float-right rtl:float-left dark:bg-gray-dark"
                             >
                                 <svg
@@ -417,7 +417,7 @@ const Index = (props: any) => {
                                 3D моделирование — это процесс создания трёхмерных моделей объектов или сцен с помощью специализированного программного обеспечения. Наши опытные специалисты имеют большой опыт работы в данной сфере и готовы помочь вам в реализации ваших самых сложных проектов.
                             </p>
                             <Link
-                                href="/services-detail"
+                                href="#"
                                 className="mt-6 flex h-11 w-11 items-center justify-center rounded-full bg-[#F3F4F6] transition group-hover:bg-black group-hover:text-white ltr:float-right rtl:float-left dark:bg-gray-dark"
                             >
                                 <svg
@@ -466,7 +466,7 @@ const Index = (props: any) => {
                                 3D сканирование - это процесс получения цифровой модели реального объекта. Она позволяет получить точную копию реального объекта с сохранением всех его свойств и характеристик. Мы работаем с проектами любой сложности и гарантируем быстрое и профессиональное выполнение работ.
                             </p>
                             <Link
-                                href="/services-detail"
+                                href="#"
                                 className="mt-6 flex h-11 w-11 items-center justify-center rounded-full bg-[#F3F4F6] transition group-hover:bg-black group-hover:text-white ltr:float-right rtl:float-left dark:bg-gray-dark"
                             >
                                 <svg
@@ -683,11 +683,11 @@ const Index = (props: any) => {
                     <div className="flex flex-col items-center gap-12 lg:flex-row lg:gap-28">
                         <div className="order-2 lg:order-1">
                             <div className="heading mb-0 text-center ltr:sm:text-left rtl:sm:text-right">
-                                <h6 className="!text-secondary">Our marketing agency</h6>
-                                <h4>Business who achieved pro results</h4>
+                                <h6 className="!text-secondary">Фабрика 3D Муром</h6>
+                                <h4>Компания, которая помогает бизнесу развиваться</h4>
                             </div>
                             <p className="mt-[18px] text-lg font-semibold">
-                                We admire that business to pro level which is highly impacts on growth revenues and marketing strength.
+                                Благодаря индивидуальному подходу к каждому клиенту мы в кротчайшие сроки готовы наладить выпуск продукции
                             </p>
                             <div className="text-black">
                                 <div className="mt-14 flex items-center gap-4">
@@ -700,7 +700,7 @@ const Index = (props: any) => {
                                         </svg>
                                     </div>
                                     <div>
-                                        <h5 className="text-lg font-semibold dark:text-white">Corporate Financial advisory</h5>
+                                        <h5 className="text-lg font-semibold dark:text-white">Импортозамещение иностранных запчастей.</h5>
                                     </div>
                                 </div>
                                 <div className="mt-6 flex items-center gap-4">
@@ -713,7 +713,7 @@ const Index = (props: any) => {
                                         </svg>
                                     </div>
                                     <div>
-                                        <h5 className="text-lg font-semibold dark:text-white">High growth revenues in marketing service.</h5>
+                                        <h5 className="text-lg font-semibold dark:text-white">Изготовление уникальных деталей.</h5>
                                     </div>
                                 </div>
                                 <div className="mt-6 flex items-center gap-4">
@@ -726,12 +726,12 @@ const Index = (props: any) => {
                                         </svg>
                                     </div>
                                     <div>
-                                        <h5 className="text-lg font-semibold dark:text-white">Get full contact support from our community.</h5>
+                                        <h5 className="text-lg font-semibold dark:text-white">Воссоздание сломанных запчастей.</h5>
                                     </div>
                                 </div>
                             </div>
                             <button type="button" className="btn mt-10 bg-secondary py-5 px-[50px] text-white hover:bg-primary">
-                                Know more
+                                Узнать больше
                             </button>
                         </div>
                         <div className="order-1 w-full max-w-[560px] lg:order-2">
@@ -744,8 +744,8 @@ const Index = (props: any) => {
             <section className="bg-gradient-to-b from-transparent to-white/[55%] py-10 dark:bg-gradient-to-t dark:from-white/5 dark:to-transparent lg:py-20">
                 <div className="container">
                     <div className="heading text-center">
-                        <h6 className="!text-secondary">Our core value</h6>
-                        <h4>The core values behind our work</h4>
+                        <h6 className="!text-secondary">Наши преимущества</h6>
+                        <h4>Основные ценности, стоящие за нашей работой</h4>
                     </div>
                     <div
                         className="grid grid-cols-1 justify-between gap-7 ltr:text-right rtl:text-left md:grid-cols-2"
@@ -754,9 +754,9 @@ const Index = (props: any) => {
                     >
                         <div className="group flex gap-6 rounded-[32px] border-2 border-white/[0.1] bg-white py-10 px-6 duration-200 hover:border-secondary hover:bg-secondary/20 dark:bg-transparent dark:bg-gradient-to-b dark:from-white/5 dark:to-transparent">
                             <div className="flex-1">
-                                <h3 className="text-2xl font-extrabold text-primary">Execution</h3>
+                                <h3 className="text-2xl font-extrabold text-primary">Исполнение</h3>
                                 <p className="mt-4 text-lg font-semibold">
-                                    Successful businesses create a marketing system that help them stay on top of marketing activities.
+                                    Все заказы исполняются точно в срок и в нужном объеме. Наше производство готово масштабироваться под потребности клиента.
                                 </p>
                             </div>
                             <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-[rgba(71,189,255,0.06)] text-[#47BDFF]">
@@ -770,10 +770,9 @@ const Index = (props: any) => {
                         </div>
                         <div className="group flex gap-6 rounded-[32px] border-2 border-white/[0.1] bg-white py-10 px-6 duration-200 hover:border-secondary hover:bg-secondary/20 dark:bg-transparent dark:bg-gradient-to-b dark:from-white/5 dark:to-transparent">
                             <div className="flex-1">
-                                <h3 className="text-2xl font-extrabold text-secondary">Accountability</h3>
+                                <h3 className="text-2xl font-extrabold text-secondary">Качество</h3>
                                 <p className="mt-4 text-lg font-semibold">
-                                    Accountability allows marketing to take respon- sibility for the profit or loss from investments in marketing activities and
-                                    demonstrate.
+                                    Мы используем самые качественные виды пластиков и тщательно проверяем каждое изделие, что гарантирует минимальный процент брака и высокое качество нашей продукции.
                                 </p>
                             </div>
                             <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-[rgba(180,118,229,0.06)] text-[#B476E5]">
@@ -787,9 +786,9 @@ const Index = (props: any) => {
                         </div>
                         <div className="group flex gap-6 rounded-[32px] border-2 border-white/[0.1] bg-white py-10 px-6 duration-200 hover:border-secondary hover:bg-secondary/20 dark:bg-transparent dark:bg-gradient-to-b dark:from-white/5 dark:to-transparent">
                             <div className="flex-1">
-                                <h3 className="text-2xl font-extrabold text-secondary">Growth</h3>
+                                <h3 className="text-2xl font-extrabold text-secondary">Рост</h3>
                                 <p className="mt-4 text-lg font-semibold">
-                                    Growth marketing is the process of using data gained through marketing campaigns and experimentation to drive growth
+                                    Мы постоянно развиваемся, изучая все больше программного обеспечения для создания 3D моделей и тестируя самые новые виды пластиков и композитов, чтобы удовлетворить требования любого заказчика.
                                 </p>
                             </div>
                             <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-[rgba(180,118,229,0.06)] text-[#B476E5]">
@@ -803,10 +802,9 @@ const Index = (props: any) => {
                         </div>
                         <div className="group flex gap-6 rounded-[32px] border-2 border-white/[0.1] bg-white py-10 px-6 duration-200 hover:border-secondary hover:bg-secondary/20 dark:bg-transparent dark:bg-gradient-to-b dark:from-white/5 dark:to-transparent">
                             <div className="flex-1">
-                                <h3 className="text-2xl font-extrabold text-primary">Team Work</h3>
+                                <h3 className="text-2xl font-extrabold text-primary">Командная работа</h3>
                                 <p className="mt-4 text-lg font-semibold">
-                                    Marketing can be defined as all the different activities that are involved in making products available to satisfy the needs
-                                    of the customers.
+                                    Наша команда является дружным коллективом, который видит преимущества 3D печати и сферы, в которых ее можно применить. Мы постоянно совершенствуемся и помогаем друг другу, чтобы качество нашей продукции оставалось на высшем уровне.
                                 </p>
                             </div>
                             <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-[rgba(71,189,255,0.06)] text-[#47BDFF]">
@@ -845,8 +843,8 @@ const Index = (props: any) => {
             <section className="overflow-hidden py-12 lg:py-24">
                 <div className="container">
                     <div className="heading text-center">
-                        <h6 className="!text-secondary">Meet Our Team</h6>
-                        <h4>Our experienced core members</h4>
+                        <h6 className="!text-secondary">Команда</h6>
+                        <h4>Познакомьтесь с нашей командой</h4>
                     </div>
                 </div>
 
@@ -902,8 +900,8 @@ const Index = (props: any) => {
                             <div className="mx-auto w-48 rounded-full">
                                 <img src="/assets/images/marketing/member1.png" alt="" />
                             </div>
-                            <h3 className="mt-2 text-xl font-extrabold text-black dark:text-white">James Hudson</h3>
-                            <p className="mt-2.5 text-sm font-semibold">CEO & co-founder</p>
+                            <h3 className="mt-2 text-xl font-extrabold text-black dark:text-white">Салтыков Олег</h3>
+                            <p className="mt-2.5 text-sm font-semibold">Хз какая должность</p>
                         </SwiperSlide>
 
                         <SwiperSlide className="relative text-center">
@@ -913,10 +911,10 @@ const Index = (props: any) => {
                             <div className="mx-auto w-48 rounded-full">
                                 <img src="/assets/images/marketing/member2.png" alt="" />
                             </div>
-                            <h3 className="mt-2 text-xl font-extrabold text-black dark:text-white">Phill huges</h3>
-                            <p className="mt-2.5 text-sm font-semibold">Head of SEO</p>
+                            <h3 className="mt-2 text-xl font-extrabold text-black dark:text-white">Вершинин Владимир</h3>
+                            <p className="mt-2.5 text-sm font-semibold">Хз какая должность</p>
                         </SwiperSlide>
-
+                        {/*
                         <SwiperSlide className="relative text-center">
                             <span className="absolute inset-x-0 -top-5">
                                 <img src="/assets/images/marketing/team-shadow.svg" className="mx-auto" alt="" />
@@ -939,12 +937,12 @@ const Index = (props: any) => {
                                 <h3 className="mt-2 text-xl font-extrabold text-black dark:text-white">John carter</h3>
                                 <p className="mt-2.5 text-sm font-semibold">Head of marketing</p>
                             </div>
-                        </SwiperSlide>
+                        </SwiperSlide> */}
                     </Swiper>
                 </div>
             </section>
 
-            <section className="bg-gradient-to-t from-transparent to-white/[55%] py-12 dark:bg-gradient-to-b dark:from-white/5 dark:to-transparent lg:py-24">
+            {/* <section className="bg-gradient-to-t from-transparent to-white/[55%] py-12 dark:bg-gradient-to-b dark:from-white/5 dark:to-transparent lg:py-24">
                 <div className="container">
                     <div className="heading mb-0 text-center">
                         <h6>Pricing Plan</h6>
@@ -1378,7 +1376,7 @@ const Index = (props: any) => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             <section className="relative overflow-hidden bg-black py-12 lg:py-24">
                 <div className="absolute top-0 ltr:right-0 rtl:left-0 rtl:rotate-y-180">
@@ -1496,7 +1494,7 @@ const Index = (props: any) => {
                 <div className="container relative">
                     <div className="heading overflow-hidden !pb-0 text-center">
                         <h6>Отзывы</h6>
-                        <h4 className="!text-white">Отзывы Наших клиентов</h4>
+                        <h4 className="!text-white">Отзывы Наших Клиентов</h4>
                     </div>
                     <Testimonial type="marketing"></Testimonial>
                 </div>
@@ -1506,8 +1504,8 @@ const Index = (props: any) => {
                 <div className="container">
                     <div className="relative z-10 lg:flex">
                         <div className="heading text-center lg:mb-0 lg:w-1/3 ltr:lg:pr-10 ltr:lg:text-left rtl:lg:pl-10 rtl:lg:text-right">
-                            <h6>Get In Touch.</h6>
-                            <h4 className="sm:!leading-[50px]">Ready to Get Started?</h4>
+                            <h6>Связаться.</h6>
+                            <h4 className="sm:!leading-[50px]">Готовы начать сотрудничество?</h4>
                             <div className="block dark:hidden">
                                 <svg className="mx-auto" width="328" height="328" viewBox="0 0 328 328" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -2058,7 +2056,7 @@ const Index = (props: any) => {
                                         className="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12 rtl:pl-12"
                                     />
                                     <label className="absolute -top-3 bg-white px-2 font-bold ltr:left-6 rtl:right-6 dark:bg-[#101626] dark:text-white">
-                                        Full Name
+                                        Полное Имя
                                     </label>
                                     <svg
                                         width="20"
@@ -2088,7 +2086,7 @@ const Index = (props: any) => {
                                         className="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12 rtl:pl-12"
                                     />
                                     <label className="absolute -top-3 bg-white px-2 font-bold ltr:left-6 rtl:right-6 dark:bg-[#101626] dark:text-white">
-                                        Email Address
+                                        Email
                                     </label>
                                     <svg
                                         width="22"
@@ -2120,7 +2118,7 @@ const Index = (props: any) => {
                                         className="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12 rtl:pl-12"
                                     />
                                     <label className="absolute -top-3 bg-white px-2 font-bold ltr:left-6 rtl:right-6 dark:bg-[#101626] dark:text-white">
-                                        Mobile Number
+                                        Номер Телефона
                                     </label>
                                     <svg
                                         width="22"
@@ -2145,7 +2143,7 @@ const Index = (props: any) => {
                                         className="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12 rtl:pl-12"
                                     />
                                     <label className="absolute -top-3 bg-white px-2 font-bold ltr:left-6 rtl:right-6 dark:bg-[#101626] dark:text-white">
-                                        City
+                                        Город
                                     </label>
                                     <svg
                                         width="20"
@@ -2177,7 +2175,7 @@ const Index = (props: any) => {
                                     className="w-full rounded-2xl border-2 border-gray/20 bg-transparent p-4 font-bold outline-none transition focus:border-secondary ltr:pr-12 rtl:pl-12"
                                 />
                                 <label className="absolute -top-3 bg-white px-2 font-bold ltr:left-6 rtl:right-6 dark:bg-[#101626] dark:text-white">
-                                    Message
+                                    Сообщение
                                 </label>
                                 <svg
                                     width="22"
@@ -2200,7 +2198,7 @@ const Index = (props: any) => {
                             </div>
                             <div className="mt-10 text-center ltr:lg:text-right rtl:lg:text-left">
                                 <button type="button" className="btn bg-gray px-12 capitalize text-white dark:bg-white dark:text-black dark:hover:bg-secondary">
-                                    Send Message
+                                    Отправить сообщение
                                 </button>
                             </div>
                         </form>

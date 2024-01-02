@@ -94,11 +94,11 @@ const Footer = () => {
                                     Услуги
                                 </Link>
                             </li>
-                            <li>
+                            {/* <li>
                                 <Link href="/team" className="inline-block transition hover:scale-110 hover:text-secondary">
                                     Команда
                                 </Link>
-                            </li>
+                            </li> */}
                             <li>
                                 <Link href="/about-us" className="inline-block transition hover:scale-110 hover:text-secondary">
                                     О нас
@@ -114,18 +114,23 @@ const Footer = () => {
                     <div>
                         <ul className="flex flex-col gap-3 font-bold">
                             <li className="mb-3 text-lg font-extrabold text-black dark:text-white">Услуги</li>
-                            <li>
+                            {/* <li>
                                 <Link href="/services-detail" className="inline-block transition hover:scale-110 hover:text-secondary">
+                                    3D печать
+                                </Link>
+                            </li> */}
+                            <li>
+                                <Link href="#" className="inline-block transition hover:scale-110 hover:text-secondary">
                                     3D печать
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/services-detail" className="inline-block transition hover:scale-110 hover:text-secondary">
+                                <Link href="#" className="inline-block transition hover:scale-110 hover:text-secondary">
                                     3D моделирование
                                 </Link>
                             </li>
                             <li>
-                                <Link href="/services-detail" className="inline-block transition hover:scale-110 hover:text-secondary">
+                                <Link href="#" className="inline-block transition hover:scale-110 hover:text-secondary">
                                     3D сканирование
                                 </Link>
                             </li>
@@ -149,17 +154,17 @@ const Footer = () => {
                                     FAQs
                                 </Link>
                             </li>
-                            <li>
+                            {/* <li>
                                 <Link href="/blog" className="inline-block transition hover:scale-110 hover:text-secondary">
                                     Блог
                                 </Link>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                     <div>
                         <ul className="flex flex-col gap-3 font-bold">
                             <li className="mb-3 text-lg font-extrabold text-black dark:text-white">Информация</li>
-                            <li>ул. Ленина 34, г. Муром, Владимирская область</li>
+                            <li>ул. Ленина 34, город Муром, Владимирская область</li>
                             <li>
                                 <a href="tel:+(617) 254-2333" className="inline-block transition hover:scale-110 hover:text-secondary">
                                     + 7 (930) 832-3000

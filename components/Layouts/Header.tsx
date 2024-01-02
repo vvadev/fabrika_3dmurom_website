@@ -205,11 +205,11 @@ const Header = (props: any) => {
                                         Услуги
                                     </Link>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <Link href="/team" className={router.pathname === '/team' ? 'active' : ''}>
                                         Команда
                                     </Link>
-                                </li>
+                                </li> */}
                                 <li>
                                     <Link href="/about-us" className={router.pathname === '/about-us' ? 'active' : ''}>
                                         О Нас

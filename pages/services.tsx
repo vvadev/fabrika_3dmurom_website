@@ -19,15 +19,15 @@ const Services = () => {
     return (
         <div>
             <Head>
-                <title>Services | Plurk – Tailwind CSS Multipurpose Landing Templates</title>
+                <title>Услуги | Фабрика 3D Муром – 3D печать и моделирование</title>
             </Head>
             <div className="bg-[url(/assets/images/inner-page-hero-bg.png)] bg-cover bg-bottom bg-no-repeat pt-[82px] lg:pt-[106px]">
                 <div className="relative">
                     <div className="container">
                         <div className="items-center justify-between py-10 md:flex md:h-[400px] md:py-0">
                             <div className="heading relative mb-0 text-center ltr:md:text-left rtl:md:text-right">
-                                <h6>Services</h6>
-                                <h4 className="!text-white">High - Impact Services</h4>
+                                <h6>Услуги</h6>
+                                <h4 className="!text-white">Полный цикл работы с 3D</h4>
                             </div>
                             <div className="relative mt-6 md:mt-0" data-aos={isRtl ? 'fade-right' : 'fade-left'} data-aos-duration="1000">
                                 <svg
@@ -407,16 +407,16 @@ const Services = () => {
                                     </svg>
                                 </div>
                                 <Link
-                                    href="/services-detail"
+                                    href="#"
                                     className="my-8 inline-block text-[22px] font-extrabold text-black dark:text-white dark:group-hover:text-black"
                                 >
-                                    UI/UX Design
+                                    3D Печать
                                 </Link>
                                 <p className="mb-10 text-lg font-semibold transition line-clamp-3 dark:group-hover:text-black">
-                                    We provide services with the best designs than our designer team for your business.
+                                    С помощью специального оборудования и материалов можно получить точные копии исходных моделей. Мы предлагаем услуги 3D печати для различных проектов и задач. Наши специалисты помогут выбрать оптимальные параметры и материалы для достижения наилучшего результата.
                                 </p>
                                 <Link
-                                    href="/services-detail"
+                                    href="#"
                                     className="flex h-11 w-11 items-center justify-center rounded-full bg-[#F3F4F6] transition group-hover:bg-black dark:bg-gray-dark"
                                 >
                                     <svg
@@ -457,16 +457,16 @@ const Services = () => {
                                     </svg>
                                 </div>
                                 <Link
-                                    href="/services-detail"
+                                    href="#"
                                     className="my-8 inline-block text-[22px] font-extrabold text-black dark:text-white dark:group-hover:text-black"
                                 >
-                                    Web Development
+                                    3D Моделирование
                                 </Link>
                                 <p className="mb-10 text-lg font-semibold transition line-clamp-3 dark:group-hover:text-black">
-                                    We help develop company websites to be more professional and attractive
+                                    3D моделирование — это процесс создания трёхмерных моделей объектов или сцен с помощью специализированного программного обеспечения. Наши опытные специалисты имеют большой опыт работы в данной сфере и готовы помочь вам в реализации ваших самых сложных проектов.
                                 </p>
                                 <Link
-                                    href="/services-detail"
+                                    href="#"
                                     className="flex h-11 w-11 items-center justify-center rounded-full bg-[#F3F4F6] transition group-hover:bg-black dark:bg-gray-dark"
                                 >
                                     <svg
@@ -507,16 +507,16 @@ const Services = () => {
                                     </svg>
                                 </div>
                                 <Link
-                                    href="/services-detail"
+                                    href="#"
                                     className="my-8 inline-block text-[22px] font-extrabold text-black dark:text-white dark:group-hover:text-black"
                                 >
-                                    Digital Marketing
+                                    3D Сканирование
                                 </Link>
                                 <p className="mb-10 text-lg font-semibold transition line-clamp-3 dark:group-hover:text-black">
-                                    We also help you market your products through an online marketplace.
+                                    3D сканирование - это процесс получения цифровой модели реального объекта. Она позволяет получить точную копию реального объекта с сохранением всех его свойств и характеристик. Мы работаем с проектами любой сложности и гарантируем быстрое и профессиональное выполнение работ.
                                 </p>
                                 <Link
-                                    href="/services-detail"
+                                    href="#"
                                     className="flex h-11 w-11 items-center justify-center rounded-full bg-[#F3F4F6] transition group-hover:bg-black dark:bg-gray-dark"
                                 >
                                     <svg
@@ -543,18 +543,16 @@ const Services = () => {
                 <CounterComponent />
             </section>
 
-            <ProjectSlider title1="Our Project" title2="Some of our finest work." />
+            <ProjectSlider title1="Наши проекты" title2="Некоторые из наших лучших работ." />
 
             <section className="bg-gradient-to-b from-white/[55%] to-transparent py-14 dark:from-white/5 lg:py-[100px]">
                 <div className="container">
                     <div className="grid items-center gap-5 md:gap-10 lg:grid-cols-2">
                         <div className="heading text-center ltr:lg:text-left rtl:lg:text-right">
-                            <h6>How We Do It?</h6>
-                            <h4>We make your spending stress-free for you to have the perfect control.</h4>
+                            <h6>Как Мы Делаем Это?</h6>
+                            <h4>Процесс создания нового изделия максимально оптимизирован.</h4>
                             <p className="pt-5 text-lg font-semibold">
-                                Find out everything you need to know and more about how we create our business process models. There are many variations of
-                                passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised
-                                words which don't look even slightly believable.
+                                На каждом этапе работы мы поддерживаем связь с заказчиком, чтобы быстро прийти к желаемому результату без больших временных затрат
                             </p>
                         </div>
                         <div className="grid gap-4 rounded-[32px] sm:grid-cols-2 sm:gap-0">
@@ -585,9 +583,9 @@ const Services = () => {
                                     </svg>
                                 </div>
                                 <div>
-                                    <h3 className="pb-2 text-lg font-extrabold">Analysis & Planning</h3>
+                                    <h3 className="pb-2 text-lg font-extrabold">Анализ и Планирование</h3>
                                     <p className="text-sm font-bold leading-5 opacity-80 line-clamp-6">
-                                        The very first step that we follow while developing apps or working on any project, begins with analysis.
+                                        Изучаем модель и место ее эксплуатации для определения материала печати.
                                     </p>
                                 </div>
                             </div>
@@ -618,9 +616,9 @@ const Services = () => {
                                     </svg>
                                 </div>
                                 <div>
-                                    <h3 className="pb-2 text-lg font-extrabold">Design</h3>
+                                    <h3 className="pb-2 text-lg font-extrabold">Дизайн</h3>
                                     <p className="text-sm font-bold leading-5 opacity-80 line-clamp-6">
-                                        Designing helps us understand the engagement of users if the product is user-friendly, intuitive, and reciprocal.
+                                        Создаем 3D модель изделия в Компас 3D согласно требованиям заказчика.
                                     </p>
                                 </div>
                             </div>
@@ -644,9 +642,9 @@ const Services = () => {
                                     </svg>
                                 </div>
                                 <div>
-                                    <h3 className="pb-2 text-lg font-extrabold">Development</h3>
+                                    <h3 className="pb-2 text-lg font-extrabold">Черновая печать</h3>
                                     <p className="text-sm font-bold leading-5 opacity-80 line-clamp-6">
-                                        This is the main part of our process beca-use the product that we deliver depends on the efforts made during this stage.
+                                        Печатаем несколько пробных вариантов изделия для проверки размеров и эксплуатационных характеристик.
                                     </p>
                                 </div>
                             </div>
@@ -670,10 +668,9 @@ const Services = () => {
                                     </svg>
                                 </div>
                                 <div>
-                                    <h3 className="pb-2 text-lg font-extrabold">Testing</h3>
+                                    <h3 className="pb-2 text-lg font-extrabold">Серийное производство</h3>
                                     <p className="text-sm font-bold leading-5 opacity-80 line-clamp-6">
-                                        Testing is obligatory to an app’s future success; it surrounds a significant section of our overall mobile app
-                                        development process.
+                                        Запускаем модель в производство и контролирем качество каждого выпускаемого изделия.
                                     </p>
                                 </div>
                             </div>
@@ -682,7 +679,7 @@ const Services = () => {
                 </div>
             </section>
 
-            <section className="overflow-x-hidden bg-gradient-to-t from-white/[55%] to-transparent dark:bg-none md:py-14 lg:pb-[100px] lg:pt-[130px]">
+            {/* <section className="overflow-x-hidden bg-gradient-to-t from-white/[55%] to-transparent dark:bg-none md:py-14 lg:pb-[100px] lg:pt-[130px]">
                 <div className="relative bg-center">
                     <img
                         src="/assets/images/how-we-do-it_.png"
@@ -754,9 +751,9 @@ const Services = () => {
                         </div>
                     </div>
                 </div>
-            </Modal>
+            </Modal> */}
 
-            <section className="bg-white/50 py-14 dark:bg-transparent lg:py-[100px]">
+            {/* <section className="bg-white/50 py-14 dark:bg-transparent lg:py-[100px]">
                 <div className="container">
                     <div className="heading text-center">
                         <h4>What Technologies Do We Use?</h4>
@@ -1168,13 +1165,13 @@ const Services = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             <section className="py-14 pb-[160p] lg:py-[100px]">
                 <div className="container">
                     <div className="heading text-center">
-                        <h6>TEAM. CUSTOMER. COMMUNITY</h6>
-                        <h4>We work with best partners</h4>
+                        <h6>Команды. Люди. Поддержка</h6>
+                        <h4>Мы работаем с лучшими партнерами</h4>
                     </div>
                 </div>
                 <div className="mx-auto w-4/5 py-10">
@@ -1451,7 +1448,7 @@ const Services = () => {
                                     type="submit"
                                     className="absolute top-0 h-full bg-secondary px-4 font-extrabold uppercase text-white ltr:right-0 ltr:rounded-r-3xl rtl:left-0 rtl:rounded-l-3xl sm:px-7"
                                 >
-                                    submit
+                                    отправить
                                 </button>
                             </div>
                         </form>
